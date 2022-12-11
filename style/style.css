@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo-header {
+    border: solid black 3px;
+    padding: 5px;
+}
+
+.buscador {
+    background-color: #dddddd;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.cont-nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    background-image: url("img/olasmar.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 790px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2 {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.text-main {
+    font-size: 40px;
+}
+span {
+    color: black;
+}
+
+a{
+    position: relative;
+}
+.flecha-abajo {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    font-size: 40px;
+}
